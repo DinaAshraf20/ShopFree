@@ -11,7 +11,7 @@
     tools:context="com.course.android.ShopFree.LoginActivity">
 
     <ImageView
-        android:layout_margintop="500"
+        android:id="@+id/imageview_logo"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_gravity="center_vertical"
