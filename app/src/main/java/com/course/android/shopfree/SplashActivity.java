@@ -21,7 +21,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
 
-                Intent mainIntent = new Intent(SplashActivity.this,Menu.class);
+                Intent mainIntent = new Intent(SplashActivity.this,LoginActivity.class);
                 SplashActivity.this.startActivity(mainIntent);
                // Toast.makeText(SplashActivity.this, " SPLASH " , Toast.LENGTH_LONG).show();
                 SplashActivity.this.finish();
