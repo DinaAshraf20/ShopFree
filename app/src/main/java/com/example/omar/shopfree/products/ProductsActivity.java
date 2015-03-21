@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.widget.DrawerLayout;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -87,12 +88,15 @@ public class ProductsActivity extends ActionBarActivity
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
         ForscustTask task = new ForscustTask();
-        task.execute("https://dl.dropboxusercontent.com/u/84824665/shopfree/products");
+        task.execute("https://dl.dropboxusercontent.com/u/84824665/shopfree/Refrigerated");
 
 
     }
 
-
+    public void add_to_ListClick(View view)
+    {
+        Toast.makeText(this,"++",Toast.LENGTH_LONG).show();
+    }
     class ForscustTask extends AsyncTask<String, Void, ProductsReply> {
 
         @Override

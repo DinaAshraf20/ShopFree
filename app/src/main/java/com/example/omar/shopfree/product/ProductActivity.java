@@ -27,7 +27,7 @@ public class ProductActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_product);
 
         tvProductName = (TextView) findViewById(R.id.product_name);
         imgView = (ImageView) findViewById(R.id.img_view);
